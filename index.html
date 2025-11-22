@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>School Club Information</title>
+</head>
+<body>
+    <h1>School Club Information</h1>
+
+    <label>Select a club:</label>
+    <button py-click="art" id="art">Art Club</button>
+    <button py-click="vball" id="vball">Volleyball</button>
+    <button py-click="monarch" id="monarch">Monarchs</button>
+    <button py-click="bball" id="bball">Basketball</button>
+    <button py-click="glee" id="glee">Glee</button>
+
+    <div id='output'></div>
+    <py-script src="main.py" py-load></py-script>
+</body>
+</html>
